@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="contact">
+        <div class="svg">
+            <div class="image">
+                <img src="contactred.svg" alt="">
+            </div>
+        </div>
+        <div class="items">
+            <div class="itemsInner">
+
+                <div>
+                    <label for="name">Enter your name: </label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="email">Enter your email here: </label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label for="contactNumber">Enter contact number (optional): </label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="query">Enter your query below: </label>
+                    <textarea></textarea>
+                </div>
+                <div class="buttonClass">
+                    <button>
+                        Send
+                    </button>
+                    <button onclick="goBack()">
+                        Go Back
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        function goBack(){
+            window.location = 'index.html';
+        }
+    </script>
+</body>
+
+</html>
